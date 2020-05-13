@@ -1,0 +1,171 @@
+*,html,body
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height:auto;
+    width: auto;
+    background-image: url(img/abt1.jpg); 
+}
+header{
+    position: fixed;
+    width:100%;
+    line-height: 10px;
+    z-index: 1;
+    
+
+}
+.secondary{
+    width: 100%;
+   margin:0px;
+
+}
+.logo img{
+     width:10%;    
+     height:auto;
+     float: left;
+     
+}
+header nav{
+    float:top;
+    width: 100%;
+    text-align: right;
+    
+}
+ul{ 
+    list-style: none;
+    background-color:#0005;
+    border-radius: 10px;
+}
+li{
+    display: inline-block;
+}
+header ul li a{
+    text-align: center;
+    
+    border-radius:5%;  
+    font-weight: bold;
+    color:whitesmoke;
+    margin-right: 20px;
+    padding-top: 0px;
+     transition: all 0.5s ease-in;
+}
+header ul li a:hover{ 
+    margin-right: 20px; 
+    font-weight: bolder;
+    color:whitesmoke;
+    padding-right:10px;
+    background-color: rgb(100, 90, 90);
+    transition: all 0.2s ease-in;
+}
+.first{ position:relative;
+    background-color: #0008;
+    margin:auto;
+    width: auto;
+    height: auto;
+}
+h1{
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:whitesmoke;
+}
+span{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:rgb(209, 45, 45);
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    color:rgba(255, 145, 43, 0.925);
+}
+
+
+.intro-block{ 
+   
+    position:relative;
+    left:100%;
+    background:#0005;
+    margin: 50px 0px 0px;
+    padding: 70px 25px 40px;
+    text-align:center;
+    
+}
+.intro-block:hover, .intro-block.active
+{
+    background:#0009;
+}
+.intro-block:hover
+{
+    transition:0.6s ease-in-out;
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -ms-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+}
+
+.intro-block .intro-icon
+{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+}
+.intro-block .fa{
+    width: 62px;
+    height: 63px;
+    font-size: 30px;
+    color: blanchedalmond;
+    line-height: 2;
+    color: rgb(255, 0, 106);
+    border-radius: 40%;
+    box-shadow: 0px 0px 0px 10px #CCEEF9;
+
+}
+.intro-block:hover .fa, .intro-block.active .fa{
+    background: white;
+    color: rgb(255, 0, 106);
+    box-shadow: 0px 0px 0px 10px rgb(248, 32, 122);
+}
+.intro-block h3{
+    font-size: 25px;
+    color:  rgb(248, 32, 122);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.intro-block p{
+    color: rgb(255, 240, 240);
+}
+.intro-block:hover h3,.intro-block:hover p{
+    color: #f6f6f6;
+}
+.intro-block ol{
+    color: rgb(255, 240, 240);
+    font-weight: bold;
+}
+.intro-block:hover ol{
+    color: #f6f6f6;
+}
+
+
+.joinus{ 
+    text-align: center;
+    
+}
+p{ text-align: center;
+    font-style: verdana;
+    font-weight: bolder;
+    color:black;
+}
+.joinus .fa{
+    font-size: 30px;
+    padding-right:10px ;
+}
+    
