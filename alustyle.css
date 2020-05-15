@@ -7,6 +7,7 @@
 body{
     height:100%;
     width:100%;
+    background-image: linear-gradient(grey, white 80%);
    
 }
 header{
@@ -43,7 +44,6 @@ ul{
 }
 ul .form-inline{
     display: inline-block;
-
     float:right;
     padding-top: 30px;
     padding-right: 20px;
