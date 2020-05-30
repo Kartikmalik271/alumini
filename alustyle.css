@@ -214,6 +214,7 @@ header ul li a:hover{
 }
 .feedback{
     width: 100%;
+    
     background-color: #000100;
 }
 .forms{ 
@@ -238,8 +239,8 @@ header ul li a:hover{
 }
 .pic{
     float: right;
-    width: 50%;
-    height: 50%;
+    width:50%;
+    height:350px;
     padding: 50px;
 }
 
@@ -270,18 +271,7 @@ header ul li a:hover{
 
   }
   
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
  
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
-    }
-  }
   .column .fa{
    font-size: 30px;
     color: rgb(255, 255, 255);
@@ -289,13 +279,14 @@ header ul li a:hover{
   p{ text-align: center;
     font-style: verdana;
     font-weight: bolder;
-    color:black
+    color:whitesmoke;                                    
 }
 .joinus{ 
-    
+    color: aliceblue;
     text-align: center;
     background-color: black;
 }
+
 
 .joinus .fa{  
     font-size: 40px;
