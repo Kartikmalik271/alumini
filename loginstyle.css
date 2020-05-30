@@ -101,17 +101,22 @@ h3{
     text-align:center;
     color:rgba(38, 252, 223, 0.925);
 }
+
 .loginforms{
     background-color: #0009;
     text-align: center;
     display:block;
     color: whitesmoke;
-    padding-left: 40%;
-    
+
 }
-.loginforms .team-man{
+.login{
+    text-align: center;
+}
+
+ .team-man{
+    text-align: center;
     position: absolute;
-   margin-left:45px;
+    margin-left: 500px;
    margin-top: -60px;
     min-height: 100px;
     height: 100px;

@@ -101,20 +101,19 @@ h3{
     color:rgba(38, 252, 223, 0.925);
 }
 
+
 .signupforms{
     background-color: #0009;
+    color: whitesmoke;
+    text-align: center;
 }
 .signupforms .msg{
     text-align: center;
     color: whitesmoke;
   
 }
-.signupforms .sign{
-    padding-left:41%;
-    color: whitesmoke;
 
-}
- 
+
 .signupforms .btn-full{
     background-color: rgb(53, 202, 187);
     color: whitesmoke;

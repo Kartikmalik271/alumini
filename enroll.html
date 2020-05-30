@@ -25,7 +25,7 @@
                     
                     
                     <ul>
-                         <form class="form-inline" action="/action_page.php">
+                         <form class="form-inline" >
                             <input class="form-control mr-sm-2" type="text" placeholder="Search">
                             <button class="btn btn-success" type="submit">Search</button>
                           </form>
@@ -64,15 +64,17 @@
         </section>
         
         <section class="signupforms" >
+          <div class="container" id="sign">
+          <div class="row">
+            <div class="col-sm-12">
             <div class="msg">
                 <h6>
                     "FILL YOUR CREDENTIALS CAREFULLY" .
                 </h6>
             </div>
-            <div class="row">
-               <div class="sign">
+           
               <form onSubmit = "return validate(this)">      
-                <div class="main">
+                
                 <br>
                 <input type="text" id="unicode" placeholder=" Enter University Registration-no" name="unicode" required="required" size="30" autofocus><br>
                  <br>
@@ -110,18 +112,20 @@
                 <button type="submit" onclick="validate()" class="btn btn-full" >PROCEED</button>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
                 <a href="signup.html"class="btn btn-half">CANCEL</a>
                 
-              </div>
+              
             
               </form>
             </div>
-
+          </div>
           </div>
         </section>
+        <div class="footer">
         <div class="joinus">
           <p><br>#Follow_us_on :        </p>
           <i class="fa fa-facebook" ></i>
           <i class="fa fa-instagram"></i>
           <i class="fa fa-twitter"></i>  
+      </div>
       </div>
   </body>
 </html>
