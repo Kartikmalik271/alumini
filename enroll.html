@@ -45,6 +45,33 @@
                 </nav>
             </div>
           </section>
+          <script>
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 100) {
+                      $(".secondary").css("background" , "#0005");
+                    }
+              
+                    else{
+                        $(".secondary").css("background" , "");  	
+                    }
+                })
+              })
+           
+                $(document).ready(function(){
+                    $(window).scroll(function(){
+                        var scroll = $(window).scrollTop();
+                        if (scroll > 100) {
+                          $(".secondary").css("backdrop-filter","saturate(180%) blur(20px)");
+                        }
+                  
+                        else{
+                            $(".secondary").css("backdrop-filter" , "");  	
+                        }
+                    })
+                  })
+                </script>
     </header><br><br><br>
         
           <div class="heading container">

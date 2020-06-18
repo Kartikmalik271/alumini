@@ -28,12 +28,7 @@
                     
                     
                     <ul>
-                         <form class="form-inline" >
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search" size="13">
-                            <button class="btn btn-success" type="submit">Search</button>
-                          </form>
-                         
-                        
+
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="enroll.html">ENROLL</a></li>
                       
@@ -42,6 +37,33 @@
                 </nav>
             </div>
           </section>
+          <script>
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 100) {
+                      $(".secondary").css("background" , "#0005");
+                    }
+              
+                    else{
+                        $(".secondary").css("background" , "");  	
+                    }
+                })
+              })
+           
+                $(document).ready(function(){
+                    $(window).scroll(function(){
+                        var scroll = $(window).scrollTop();
+                        if (scroll > 100) {
+                          $(".secondary").css("backdrop-filter","saturate(180%) blur(20px)");
+                        }
+                  
+                        else{
+                            $(".secondary").css("backdrop-filter" , "");  	
+                        }
+                    })
+                  })
+                </script>
     </header><br><br><br>
         
           <div class="heading container">
