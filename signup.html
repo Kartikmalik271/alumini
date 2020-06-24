@@ -92,7 +92,8 @@
                 </h6>
             </div>
             
-              <form onSubmit = "return validate(this)">      
+                
+              <form onSubmit = "return validate(this)" action="success.html" >      
                 <br>
                 <input type="text" id="unicode" placeholder=" Enter University-Code" name="unicode" required="required" size="30" autofocus><br>
                  <br>
@@ -124,11 +125,11 @@
                   </script>
                
                 <input type="checkbox" id="rem" name="rem" >remember me.<br>
+                <input type="checkbox" id="trems" name="terms" required="terms"oninvalid="setCustomValidity('Please accept our Terms and Condition to proceed')" oninput="setCustomValidity('')">I accept the <a href="particles.js-master\demo\terms.html">terms & conditions</a>.<br>
                
                 <button type="submit" onclick="validate()" class="btn btn-full" >CREATE</button>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
                 <a href="signup.html"class="btn btn-half">CANCEL</a>
-                
-              
+               
             
               </form>
             </div>
